@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificar Notas do Aluno</title>
+  <link rel="stylesheet" href="../CSS/notas.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Medias Dos Alunos</h2>
+    <p>Digite as 5 notas:</p>
+    <input type="number" id="n1" min="0" max="10">
+    <input type="number" id="n2" min="0" max="10">
+    <input type="number" id="n3" min="0" max="10">
+    <input type="number" id="n4" min="0" max="10">
+    <input type="number" id="n5" min="0" max="10">
+    <p id="label-botao">Clique no botão para verificar as notas:</p>
+    <button id="btnVerificar" onclick="verificar()">Verificar</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="../JAVASCRICPT/notas.js"></script>
+</body>
+</html>

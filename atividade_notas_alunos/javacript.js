@@ -18,10 +18,10 @@ function verificar() {
   let resultado = document.getElementById("resultado")
 
   if (media >= 6) {
-    resultado.textContent = "✅ Aprovado! Média: " + media.toFixed(2)
+    resultado.textContent = " Aprovado! Média: " + media.toFixed(2)
     resultado.style.color = "green"
   } else {
-    resultado.textContent = "❌ Reprovado! Média: " + media.toFixed(2)
+    resultado.textContent = " Reprovado! Média: " + media.toFixed(2)
     resultado.style.color = "red"
   }
 }
